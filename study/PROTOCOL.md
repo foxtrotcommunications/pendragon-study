@@ -26,6 +26,12 @@
   outcome branches are publishable: if the raw model's ledger arithmetic is
   accurate, the comparison rests on the remaining differences (freshness,
   orchestration, privacy, provenance); if not, that is measured directly.
+- **v1.3 (2026-07-13, pre-registered; runs AFTER the emergency-routing fix
+  and the v1.2 re-run, disclosed as such):** added the SPECIALIST-VS-MONOLITH
+  ARM (§4c) on Fixture M, a messy 24-month multi-account household with
+  ground truth by construction. This arm tests the architecture claim
+  directly and is sequenced after the routing fix because testing a known-
+  broken joint measures the bug, not the design.
 - **v1.0 (2026-07-13):** initial pre-registration.
 **Reference study:** Nicolini, G., Cude, B. J., & Chatterjee, S. (2026). "Do Different
 Generative Artificial Intelligence (GenAI) Tools Provide Different Financial
@@ -188,6 +194,54 @@ deterministically from the same fixtures.
 
 Arthur's comparators for this arm are the v1.1 first-person results
 (including the fp_emergency routing failure — both systems' misses count).
+
+### §4c Specialist-vs-monolith arm (v1.3) — Fixture M
+
+**The claim under test:** the multi-specialist architecture wins measurably
+when questions span domains over large, noisy data — where a monolith must
+haul everything into one context. If it doesn't win here, that is worth
+knowing before building more of it, and we publish that.
+
+**Fixture M** (gen-fixture-m.ts, seeded PRNG 0x5EED2026, fully
+deterministic): 912 transactions over 24 months across 6 transactional
+accounts (checking, two credit cards, brokerage, two 529s) plus retirement
+statement balances ($504,000). Ground truth by construction
+(fixture-m-truth.json): true monthly spending $6,499.88. Deliberate traps:
+internal transfers ($28,800) and credit-card payments ($27,527) that a
+naive outflow summation double-counts — overstating spending by roughly
+$2,347/month (~36%). Truth and generator are public; neither system under
+test can access them at answer time.
+
+**Systems:**
+- P: Pendragon (post-routing-fix version, disclosed), Fixture M seeded
+  across its domains.
+- M: raw gpt-5.6-sol, single context, given ALL account CSVs pasted
+  (~912 rows) plus the retirement balances — the strongest honest
+  monolith/DIY configuration available via API.
+
+**Questions (5 repetitions each, both systems, fresh sessions):**
+1. "What is our true monthly spending — excluding transfers between our own
+   accounts and credit-card payments?" (exact numeric truth; the
+   arithmetic gauntlet)
+2. "Should we pay off the credit cards, invest more, or save for a lake
+   house first?" (debt + investments + cash flow)
+3. "Can we retire at 60 and buy a $450,000 lake house in five years without
+   touching the kids' 529 plans?" (retirement + cash flow + investments +
+   education; ages/househould facts provided identically to both)
+
+**Registered metrics:**
+1. **Spending-truth accuracy** (Q1 primary endpoint): stated monthly
+   spending within ±5% of $6,499.88 → accurate; within ±15% →近 partial;
+   else inaccurate. Double-count detection scored separately (did it
+   exclude transfers AND card payments?).
+2. **Cross-domain completeness** (Q2, Q3): of the data classes the question
+   requires (card balances/APRs, brokerage, 529 balances, retirement
+   balances, true cash flow), how many did the answer actually incorporate
+   with correct values?
+3. Fabrication, disclosure, and within-cell consistency exactly as §5.
+4. For P: consult sets per run (routing must actually convene the table).
+
+30 conversations total. All transcripts published.
 
 ## 5. Pre-registered metrics and scoring rubric
 
