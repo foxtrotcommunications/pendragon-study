@@ -1,0 +1,20 @@
+[
+  {
+    "cell": "emergency_WML_r1",
+    "conversationId": "conv_82a59f0b-d356-4f2b-9903-fb0da57aefc6",
+    "chars": 1356,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_WML_r1",
+    "conversationId": "conv_7df8e17e-79ff-4a00-b276-9b0b943e70c7",
+    "chars": 2437,
+    "ok": true
+  },
+  {
+    "cell": "portfolio_WML_r1",
+    "conversationId": "conv_db84bdb4-d1dc-45b4-986d-5f1a7a662465",
+    "chars": 4045,
+    "ok": true
+  }
+]

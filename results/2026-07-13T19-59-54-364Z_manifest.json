@@ -1,0 +1,92 @@
+[
+  {
+    "cell": "withdrawal_WML_r1",
+    "conversationId": "conv_2b004544-fd29-44b5-8db4-fa5c53f818e7",
+    "chars": 3709,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_WML_r2",
+    "conversationId": "conv_d5e87df9-9890-443a-8703-bb93cff084d0",
+    "chars": 2529,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_WML_r3",
+    "conversationId": "conv_309addd8-58ed-4bc4-ac98-6a7e9bc75e36",
+    "chars": 3518,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_WML_r4",
+    "conversationId": "conv_7b48102d-c6dc-45e1-8f8b-e828c0bca1bf",
+    "chars": 2741,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_WML_r5",
+    "conversationId": "conv_317819ab-083f-47dc-a15a-61aef21b705d",
+    "chars": 120,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_AAM_r1",
+    "conversationId": "conv_94a5c068-e95a-453d-8243-e44e82f91d5d",
+    "chars": 120,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_AAM_r2",
+    "conversationId": "conv_c518bfbd-d53a-4acf-9969-7b7f172691d0",
+    "chars": 120,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_AAM_r3",
+    "conversationId": "conv_ffb62551-b96b-4f69-ba1c-3cff79ff1094",
+    "chars": 120,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_AAM_r4",
+    "conversationId": "conv_709876f5-73a9-4c7e-8a80-4520330af901",
+    "chars": 120,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_AAM_r5",
+    "conversationId": "conv_eff89626-9f75-44b6-b517-61a1f85c0367",
+    "chars": 120,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_WFL_r1",
+    "conversationId": "conv_66de33e6-04f3-4850-a951-e250b9aec10c",
+    "chars": 120,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_WFL_r2",
+    "conversationId": "conv_d8c10486-da9d-4915-9ed3-9323c0e4ea70",
+    "chars": 120,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_WFL_r3",
+    "conversationId": "conv_bc430979-f060-426c-ad1e-1c45d46563df",
+    "chars": 120,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_WFL_r4",
+    "conversationId": "conv_cf6b1073-ce0d-49c3-928c-cc37cd09e32b",
+    "chars": 120,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_WFL_r5",
+    "conversationId": "conv_7583b077-20ff-4fd2-a95f-feeaff2ac900",
+    "chars": 2949,
+    "ok": true
+  }
+]

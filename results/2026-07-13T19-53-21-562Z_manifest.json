@@ -1,0 +1,92 @@
+[
+  {
+    "cell": "emergency_WML_r1",
+    "conversationId": "conv_5788fddb-222c-4d2c-859b-1fe542fc5c8f",
+    "chars": 1337,
+    "ok": true
+  },
+  {
+    "cell": "emergency_WML_r2",
+    "conversationId": "conv_fa83424c-0ab8-4c9d-95d7-385e39de38ab",
+    "chars": 1540,
+    "ok": true
+  },
+  {
+    "cell": "emergency_WML_r3",
+    "conversationId": "conv_244366c2-49a5-44d0-bb8a-b34ac1301709",
+    "chars": 1575,
+    "ok": true
+  },
+  {
+    "cell": "emergency_WML_r4",
+    "conversationId": "conv_0b075d73-fe33-4563-a037-fafc28243bc0",
+    "chars": 1289,
+    "ok": true
+  },
+  {
+    "cell": "emergency_WML_r5",
+    "conversationId": "conv_3c7e713c-ab4b-40ea-9d59-097e9ceb6346",
+    "chars": 1361,
+    "ok": true
+  },
+  {
+    "cell": "emergency_AAM_r1",
+    "conversationId": "conv_49dfe00b-b639-46cf-9262-077ea9844011",
+    "chars": 1483,
+    "ok": true
+  },
+  {
+    "cell": "emergency_AAM_r2",
+    "conversationId": "conv_f985b651-5b52-49a1-a8a6-286b4745648f",
+    "chars": 1151,
+    "ok": true
+  },
+  {
+    "cell": "emergency_AAM_r3",
+    "conversationId": "conv_6a05e846-717b-4b67-9c31-7cdb9444be7f",
+    "chars": 1453,
+    "ok": true
+  },
+  {
+    "cell": "emergency_AAM_r4",
+    "conversationId": "conv_383dc29a-9bec-4569-bb98-c737bb639b70",
+    "chars": 1609,
+    "ok": true
+  },
+  {
+    "cell": "emergency_AAM_r5",
+    "conversationId": "conv_e78c4ac6-6523-42a5-8f22-9deba6e56539",
+    "chars": 1267,
+    "ok": true
+  },
+  {
+    "cell": "emergency_WFL_r1",
+    "conversationId": "conv_764c9244-1917-4b0c-b4cc-baa82203379b",
+    "chars": 1482,
+    "ok": true
+  },
+  {
+    "cell": "emergency_WFL_r2",
+    "conversationId": "conv_51279a67-4892-49b0-b27f-a01cd77d02bb",
+    "chars": 1413,
+    "ok": true
+  },
+  {
+    "cell": "emergency_WFL_r3",
+    "conversationId": "conv_d74547a2-bfe7-4681-bc3d-b0823430b846",
+    "chars": 1506,
+    "ok": true
+  },
+  {
+    "cell": "emergency_WFL_r4",
+    "conversationId": "conv_a0735c61-72f4-4d69-bc4a-47cde9cac994",
+    "chars": 1673,
+    "ok": true
+  },
+  {
+    "cell": "emergency_WFL_r5",
+    "conversationId": "conv_44ea31af-936f-4843-8ee7-e8e5c8da9101",
+    "chars": 1472,
+    "ok": true
+  }
+]

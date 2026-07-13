@@ -1,0 +1,92 @@
+[
+  {
+    "cell": "fp_emergency_FP_r1",
+    "conversationId": "conv_98c82870-32a6-4170-9dfa-e977927cd787",
+    "chars": 1082,
+    "ok": true
+  },
+  {
+    "cell": "fp_emergency_FP_r2",
+    "conversationId": "conv_53905af0-c0b2-4eca-ad44-9fd5894b38db",
+    "chars": 1069,
+    "ok": true
+  },
+  {
+    "cell": "fp_emergency_FP_r3",
+    "conversationId": "conv_facb7728-137e-4fbc-b528-286fd89caada",
+    "chars": 1016,
+    "ok": true
+  },
+  {
+    "cell": "fp_emergency_FP_r4",
+    "conversationId": "conv_4cc15cc8-ff6c-4b45-99da-578962edbe6a",
+    "chars": 1059,
+    "ok": true
+  },
+  {
+    "cell": "fp_emergency_FP_r5",
+    "conversationId": "conv_bb6fdf40-3b7b-40df-bcf5-b3da6f31b334",
+    "chars": 998,
+    "ok": true
+  },
+  {
+    "cell": "fp_withdrawal_FP_r1",
+    "conversationId": "conv_ad627998-0348-4180-9840-f50bb80ddc41",
+    "chars": 2260,
+    "ok": true
+  },
+  {
+    "cell": "fp_withdrawal_FP_r2",
+    "conversationId": "conv_40fe20d8-3901-4737-b782-93aa7df110c4",
+    "chars": 2984,
+    "ok": true
+  },
+  {
+    "cell": "fp_withdrawal_FP_r3",
+    "conversationId": "conv_7567be95-dcf4-44c5-b3bf-d9528f2bbcf5",
+    "chars": 2910,
+    "ok": true
+  },
+  {
+    "cell": "fp_withdrawal_FP_r4",
+    "conversationId": "conv_bccf6a0f-82c6-4ed6-bef5-6e030a44842e",
+    "chars": 2865,
+    "ok": true
+  },
+  {
+    "cell": "fp_withdrawal_FP_r5",
+    "conversationId": "conv_4e550930-1082-4f23-91ea-d519ad28cc4a",
+    "chars": 2676,
+    "ok": true
+  },
+  {
+    "cell": "fp_portfolio_FP_r1",
+    "conversationId": "conv_5004008a-d49f-4e8c-9e07-a986819dc82d",
+    "chars": 3366,
+    "ok": true
+  },
+  {
+    "cell": "fp_portfolio_FP_r2",
+    "conversationId": "conv_1f19c882-cda1-492f-9bfc-46f97e41a43a",
+    "chars": 3611,
+    "ok": true
+  },
+  {
+    "cell": "fp_portfolio_FP_r3",
+    "conversationId": "conv_235ed223-0e11-4188-bf16-b02ed2849211",
+    "chars": 3076,
+    "ok": true
+  },
+  {
+    "cell": "fp_portfolio_FP_r4",
+    "conversationId": "conv_1234fa08-c56c-4fe3-b15e-9b725eafe423",
+    "chars": 3534,
+    "ok": true
+  },
+  {
+    "cell": "fp_portfolio_FP_r5",
+    "conversationId": "conv_6ba6440d-48e9-43c9-87cb-df9897234254",
+    "chars": 3115,
+    "ok": true
+  }
+]
