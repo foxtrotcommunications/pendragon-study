@@ -71,6 +71,23 @@ Provisioned 2026-07-13 per PROTOCOL.md §3 and README.md runbook.
     stub — see ops note below; r4/r5 lost when the run was killed at wrap-up).
     Disclosed, not scored beyond n=2.
 
+## Fixture M — v1.4 addendum (window re-run + context poisoning)
+- Ran on tools-plaid **1.13.1** (data-quality guard + window fix). See
+  RESULTS-v14.md for the full write-up.
+- §4e window re-run: **2/5 full-history-accurate (up from 0/5 in v1.3)**;
+  3/5 still collapse to the specialists' overlapping short window.
+- §4d poisoning: guard flagged exactly the 6 numeric-garbage rows (2
+  outliers, 1 impossible-date, 3 duplicates), left the 7 small injection/
+  false-fact debits in the ledger by design. Monolith 5/5 accurate & 5/5
+  quarantines injection but **leaks checking poison into the retirement
+  answer 5/5**; Pendragon **0 blast-radius leak (categorical RLS proof)** but
+  frequently times out (>6 min) on the heavy questions.
+- Poison seeded via `gen-fixture-m-poison.ts` (transaction_id prefix
+  `POISON-`) and fully removed at teardown; checking verified back to 458
+  txns / 0 flags / 0 poison. Guard confirmed **0 false-positives on clean
+  Fixture M** on the real 1.13.1 flagging path (not just the skipped 1.13.0
+  path).
+
 ## Operational notes
 - Study orgs are PERMANENT internal orgs (same operational class as the demo
   org): plan=standard, trialEndsAt=null, `internalStudyOrg: true` on the org
