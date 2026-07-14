@@ -1,0 +1,13 @@
+{
+  "protocol_version": "1.3",
+  "arm": "specialist-vs-monolith",
+  "system": "M",
+  "model": "gpt-5.6-sol",
+  "cell": "M_q1_spending_r4",
+  "question": "q1_spending",
+  "repetition": 4,
+  "prompt": "What is our true monthly spending — excluding transfers between our own accounts and credit-card payments?",
+  "started": "2026-07-14T00:32:49.872Z",
+  "finished": "2026-07-14T00:34:08.355Z",
+  "transcript": "## True spending\n\nAcross **July 2024–June 2026**, your actual household spending was:\n\n- **Total over 24 months:** **$155,997.15**\n- **Average per month:** **$6,499.88**\n- **Annualized:** approximately **$77,999**\n- **Median month:** **$5,901.50**\n\n### Calculation\n\n| Source | 24-month spending |\n|---|---:|\n| Checking-account purchases and bills | $128,304.01 |\n| Visa purchases, net of refund | $12,714.26 |\n| Amex purchases | $14,978.88 |\n| **Total** | **$155,997.15** |\n\nI excluded:\n\n- **$19,200** transferred to brokerage\n- **$4,800** transferred to Child A’s 529\n- **$4,800** transferred to Child B’s 529\n- All checking-account credit-card payments\n- All corresponding “payment received” entries on the cards\n- Payroll, bonuses, and Upwork income\n\nI included the underlying card purchases once and netted Visa refunds against spending.\n\n### Why the average exceeds a typical month\n\nThe **$6,500 monthly average** appropriately includes large but real expenses such as:\n\n- Property taxes: **$7,700**\n- Annual insurance premiums: **$4,280**\n- Auto repair: **$1,640**\n- Emergency medical bill: **$950**\n- Southwest vacation: **$2,380**\n\nYour median month was only about **$5,902**, because these irregular expenses raise the average. Excluding just the auto repair, emergency bill, and vacation—but retaining recurring annual taxes and insurance—your normalized monthly spending would be approximately **$6,293**.\n\n**Bottom line: use about $6,500 per month as your all-in household spending rate, or roughly $6,300 for planning before unusual one-time expenses.**"
+}

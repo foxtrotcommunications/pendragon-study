@@ -189,3 +189,74 @@ console.error(`[fixture-m] ${txns.length} txns over 24 months across ${Object.ke
 console.error(`[fixture-m] TRUE monthly spending avg: $${monthly.toFixed(2)}`);
 console.error(`[fixture-m] transfers (trap T1): $${truth.transfers_total} | cc payments (trap T2): $${truth.cc_payments_total}`);
 console.error(`[fixture-m] naive sum of all outflows would overstate spending by ~$${((truth.transfers_total + truth.cc_payments_total) / 24).toFixed(0)}/mo`);
+
+/* ── SQL emission (--sql ck_ws debt_ws inv_ws ret_ws): per-workspace seeding
+   in the STORED convention (positive = money in — same orientation as the
+   bank-export CSVs above, so amounts pass through directly). ── */
+if (process.argv.includes('--sql')) {
+  const i = process.argv.indexOf('--sql');
+  const [ckWs, debtWs, invWs, retWs] = process.argv.slice(i + 1);
+  if (!retWs) { console.error('--sql needs ck_ws debt_ws inv_ws ret_ws'); process.exit(1); }
+
+  const CAT: Record<string, string> = {
+    'FIRST COMMUNITY MORTGAGE': 'Mortgage', 'BRIGHT HORIZONS CHILDCARE': 'Childcare',
+    'AMEREN MISSOURI': 'Utilities', 'SPIRE ENERGY': 'Utilities', 'MSD WATER SEWER': 'Utilities',
+    'AT&T INTERNET': 'Utilities', 'T-MOBILE': 'Utilities', 'SCHNUCKS ST LOUIS': 'Groceries',
+    'ST LOUIS COUNTY PROPERTY TAX': 'Taxes', 'STATE FARM ANNUAL PREMIUM': 'Insurance',
+    'DOBBS AUTO REPAIR': 'Transportation', 'BJC EMERGENCY SERVICES': 'Health & Medical',
+    'SOUTHWEST VACATIONS': 'Travel', 'AMAZON.COM': 'Shopping', 'TARGET': 'Shopping',
+    'COSTCO WHOLESALE': 'Shopping', 'HOME DEPOT': 'Shopping', 'CHIPOTLE': 'Restaurants & Dining',
+    'SHELL OIL': 'Transportation', 'SUGARFIRE SMOKE HOUSE': 'Restaurants & Dining',
+    'DELTA AIR LINES': 'Travel', 'MARRIOTT': 'Travel', 'WHOLE FOODS': 'Groceries',
+    'APPLE.COM': 'Shopping', 'AMAZON.COM REFUND': 'Shopping',
+    'MERIDIAN HEALTH SYSTEMS PAYROLL': 'Income', 'MERIDIAN HEALTH BONUS': 'Income',
+    'UPWORK ESCROW': 'Income',
+  };
+  const catFor = (t: Txn): string => {
+    if (t.kind.startsWith('transfer')) return 'Transfer';
+    if (t.kind.startsWith('cc-payment')) return 'Credit Card Payment';
+    if (t.name.startsWith('PAYMENT')) return 'Credit Card Payment';
+    return CAT[t.name] || 'Other';
+  };
+
+  const WS: Record<string, string> = {
+    checking: ckWs, visa: debtWs, amex: debtWs,
+    brokerage: invWs, fiveto9a: invWs, fiveto9b: invWs,
+  };
+  const ACCT_META: Record<string, { name: string; mask: string; type: string; subtype: string }> = {
+    checking: { name: 'Commerce Bank Checking', mask: '3301', type: 'depository', subtype: 'checking' },
+    visa: { name: 'Chase Freedom Visa', mask: '7742', type: 'credit', subtype: 'credit card' },
+    amex: { name: 'Amex Gold', mask: '1105', type: 'credit', subtype: 'credit card' },
+    brokerage: { name: 'Schwab Brokerage', mask: '9920', type: 'investment', subtype: 'brokerage' },
+    fiveto9a: { name: 'MO ABLE 529 Child A', mask: '5501', type: 'investment', subtype: '529' },
+    fiveto9b: { name: 'MO ABLE 529 Child B', mask: '5502', type: 'investment', subtype: '529' },
+  };
+  const esc2 = (x: string) => x.replace(/'/g, "''");
+  const sql: string[] = ['BEGIN;'];
+
+  for (const [acct, meta] of Object.entries(ACCT_META)) {
+    const bal = ACCOUNTS[acct].balance;
+    // Plaid convention for credit accounts: balance_current is positive = owed
+    const cur = meta.type === 'credit' ? Math.abs(bal) : bal;
+    sql.push(`INSERT INTO plaid_accounts (account_id, workspace_id, name, mask, type, subtype, balance_available, balance_current, currency) VALUES ('m_${acct}', '${WS[acct]}', '${esc2(meta.name)}', '${meta.mask}', '${meta.type}', '${meta.subtype}', ${meta.type === 'credit' ? 'NULL' : cur}, ${cur}, 'USD') ON CONFLICT (account_id) DO UPDATE SET balance_current = EXCLUDED.balance_current;`);
+  }
+  // retirement: statement balances only
+  sql.push(`INSERT INTO plaid_accounts (account_id, workspace_id, name, mask, type, subtype, balance_available, balance_current, currency) VALUES ('m_401k', '${retWs}', 'Fidelity 401(k)', '4401', 'investment', '401k', ${RETIREMENT['401k']}, ${RETIREMENT['401k']}, 'USD') ON CONFLICT (account_id) DO NOTHING;`);
+  sql.push(`INSERT INTO plaid_accounts (account_id, workspace_id, name, mask, type, subtype, balance_available, balance_current, currency) VALUES ('m_rollover', '${retWs}', 'Schwab Rollover IRA', '4402', 'investment', 'ira', ${RETIREMENT.rollover_ira}, ${RETIREMENT.rollover_ira}, 'USD') ON CONFLICT (account_id) DO NOTHING;`);
+
+  const seen: Record<string, Set<string>> = {};
+  txns.forEach((t, ti) => {
+    const ws = WS[t.account];
+    const cat = catFor(t);
+    sql.push(`INSERT INTO plaid_transactions (transaction_id, workspace_id, account_id, amount, date, name, merchant_name, category, category_source, payment_channel, pending) VALUES ('m_${ti}_${t.account}', '${ws}', 'm_${t.account}', ${t.amount.toFixed(2)}, '${t.date}', '${esc2(t.name)}', '${esc2(t.name)}', '${esc2(cat)}', 'arthur', 'other', FALSE) ON CONFLICT (transaction_id) DO NOTHING;`);
+    const key = t.name.trim().toLowerCase().replace(/\s+/g, ' ').slice(0, 120);
+    seen[ws] = seen[ws] || new Set();
+    if (!seen[ws].has(key)) {
+      seen[ws].add(key);
+      sql.push(`INSERT INTO arthur_categories (workspace_id, merchant_key, category) VALUES ('${ws}', '${esc2(key)}', '${esc2(cat)}') ON CONFLICT (workspace_id, merchant_key) DO NOTHING;`);
+    }
+  });
+  sql.push('COMMIT;');
+  fs.writeFileSync(path.join(OUT, 'fixture-m-seed.sql'), sql.join('\n'));
+  console.error(`[fixture-m] SQL: ${sql.length} statements → fixture-m/fixture-m-seed.sql`);
+}
