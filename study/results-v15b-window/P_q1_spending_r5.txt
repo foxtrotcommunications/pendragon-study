@@ -1,0 +1,14 @@
+```chart
+{"chartType":"bar","title":"True Monthly Spending by Payment Source","labels":["Bank-account spending","Credit-card purchases","Combined true spending"],"datasets":[{"label":"Monthly average","data":[5346,1164.16,6510.16]}],"xAxisLabel":null,"yAxisLabel":null,"stacked":false,"numberFormat":{"prefix":"$","compact":false},"annotations":null,"horizontal":true,"colors":["#527A8A"],"currency":"USD","totals":null}
+```
+> *Your visible spending averages **$6,510.16 per month** across the full 24-month history.*
+
+| Source | Monthly average |
+|---|---:|
+| Direct bank-account spending | $5,346.00 |
+| Credit-card purchases | $1,164.16 |
+| **Combined spending** | **$6,510.16** |
+
+This covers **July 2024 through June 2026** and excludes internal transfers and credit-card payments, so card purchases are counted once—not again when you pay the statement.
+
+Use **$6,510 per month** as your household spending baseline. Spending through any unconnected bank accounts or cards would be additional.

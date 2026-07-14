@@ -1,0 +1,15 @@
+```chart
+{"chartType":"bar","title":"True Monthly Spending — Transfers and Card Payments Excluded","labels":["April 2026","May 2026","June 2026","3-month average"],"datasets":[{"label":"Direct checking outflows","data":[4586.02,4593.43,4725.49,4634.98]},{"label":"Credit-card purchases, net of refunds","data":[1001.49,666.24,1577.8,1081.84]}],"xAxisLabel":null,"yAxisLabel":"Spending","stacked":true,"numberFormat":null,"annotations":null,"horizontal":false,"colors":["#4F7C82","#D39B68"],"currency":"USD","totals":null}
+```
+> *Your true spending averaged **$5,716.82 per month** across April–June 2026.*
+
+| Month | Direct spending | Card purchases, net of refunds | True spending |
+|---|---:|---:|---:|
+| April | $4,586.02 | $1,001.49 | **$5,587.51** |
+| May | $4,593.43 | $666.24 | **$5,259.67** |
+| June | $4,725.49 | $1,577.80 | **$6,303.29** |
+| **Average** | **$4,634.98** | **$1,081.84** | **$5,716.82** |
+
+I excluded transfers to your brokerage and 529 accounts, plus credit-card payments on both sides of the transaction. I counted the underlying Visa and Amex purchases once and netted an April shopping refund against spending.
+
+Use **about $5,700 per month** as your current household-spending baseline. One caveat: each account feed returned a maximum of 50 transactions, so this figure could be understated if additional transactions fell outside that result limit.

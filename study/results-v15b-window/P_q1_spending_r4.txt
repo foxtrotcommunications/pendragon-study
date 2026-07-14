@@ -1,0 +1,14 @@
+```chart
+{"chartType":"bar","title":"True Monthly Spending by Account Type","labels":["Checking & savings expenses","Credit-card purchases","Combined true spending"],"datasets":[{"label":"Monthly spending","data":[5346,1164.16,6510.16]}],"xAxisLabel":null,"yAxisLabel":null,"stacked":false,"numberFormat":null,"annotations":null,"horizontal":true,"colors":["#527C8E","#C58F5A","#326B63"],"currency":"USD","totals":null}
+```
+> *Your underlying spending averages **$6,510.16 per month** across the full 24-month history.*
+
+| Source | Monthly average |
+|---|---:|
+| Checking and savings expenses | $5,346.00 |
+| Credit-card purchases | $1,164.16 |
+| **True monthly spending** | **$6,510.16** |
+
+This covers **July 2024 through June 2026**. Transfers between your accounts and credit-card payments are excluded, while the purchases charged to those cards are counted once.
+
+One caveat: only the currently connected institutions are included. Also, **Shopping** represents 38.3% of visible card spending—categorized as Shopping, though that may include miscategorized transactions. I can show the merchant-level breakdown; if anything is wrong, tell me the correct category and I’ll fix it permanently for future analyses.

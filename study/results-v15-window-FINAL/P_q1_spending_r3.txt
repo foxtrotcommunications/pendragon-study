@@ -1,0 +1,16 @@
+```chart
+{"chartType":"bar","title":"True Monthly Spending by Source","labels":["Checking & savings outflows","Credit-card purchases","True monthly spending"],"datasets":[{"label":"Monthly rate","data":[5346,1164.16,6510.16]}],"xAxisLabel":null,"yAxisLabel":null,"stacked":false,"numberFormat":null,"annotations":null,"horizontal":true,"colors":["#4F7C8A","#79A89A","#C58B57"],"currency":"USD","totals":null}
+```
+> *Your combined spending rate is about **$6,510 per month**.*
+
+Your true monthly spending is **$6,510.16**, averaged over your full **24-month history from July 2024 through June 2026**.
+
+| Source | Monthly average |
+|---|---:|
+| Checking and savings outflows | $5,346.00 |
+| Credit-card purchases | $1,164.16 |
+| **True monthly spending** | **$6,510.16** |
+
+Transfers between your own accounts and credit-card payments are excluded, so purchases are counted only once. This covers the connected checking account and two connected cards; spending through any unconnected institutions would not be included.
+
+One categorization merits verification: **Shopping represents 38.3% of card spending** and may include transactions that belong elsewhere. If any are wrong, tell me the correct category and I’ll fix it permanently for every future analysis.

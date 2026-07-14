@@ -1,0 +1,950 @@
+data: {"type":"conversation","conversationId":"conv_095cf9ac-e177-46f9-bbd8-da76faf52609"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"planning","status":"Planning analysis"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"planning","status":"done"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"arthur","status":"Analyzing across your domains..."}
+
+data: {"type":"routing","domain":"arthur","status":"Cross-referencing your accounts..."}
+
+data: {"type":"routing","domain":"Checking & Savings","status":"Checking cash flow"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"Checking & Savings","status":"done"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"Debt","status":"Consulting Debt"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"Debt","status":"done"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"chart","status":"Generating chart"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"chart","status":"done"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"composing","status":"Composing response"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"arthur","status":"Analyzing across your domains..."}
+
+data: {"type":"routing","domain":"arthur","status":"Cross-referencing your accounts..."}
+
+data: {"type":"routing","domain":"arthur","status":"Running calculations..."}
+
+data: {"type":"routing","domain":"composing","status":"done"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"text","chunk":"```chart"}
+
+data: {"type":"text","chunk":"\n"}
+
+data: {"type":"text","chunk":"{\"chartType\":\"bar\",\"title\":\"True"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"Monthly"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"Spending"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"—"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"Complete"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"Months\",\"labels\":[\"April"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"2026\",\"May"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"2026\",\"June"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"2026\"],\"datasets\":[{\"label\":\"True"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"spending\",\"data\":[10040.72,5450.25,7045.55]}],\"xAxisLabel\":null,\"yAxisLabel\":\"Spending\",\"stacked\":false,\"numberFormat\":null,\"annotations\":null,\"horizontal\":false,\"colors\":[\"#3F718C\"],\"currency\":\"USD\",\"totals\":null}"}
+
+data: {"type":"text","chunk":"\n"}
+
+data: {"type":"text","chunk":"```"}
+
+data: {"type":"text","chunk":"\n"}
+
+data: {"type":"text","chunk":">"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"*Your"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"true"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"spending"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"averaged"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"**$7,512"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"per"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"month**"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"across"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"the"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"three"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"complete"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"months"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"available.*"}
+
+data: {"type":"text","chunk":"\n\n"}
+
+data: {"type":"text","chunk":"I"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"combined"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"checking-account"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"purchases"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"and"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"bills"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"with"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"actual"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"Visa/Amex"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"purchases,"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"then"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"excluded"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"transfers"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"and"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"both"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"sides"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"of"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"credit-card"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"payments."}
+
+data: {"type":"text","chunk":"\n\n"}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"Complete"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"month"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"True"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"spending"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"Context"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":"\n"}
+
+data: {"type":"text","chunk":"|---|---:|---|"}
+
+data: {"type":"text","chunk":"\n"}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"April"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"2026"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"$10,040.72"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"Includes"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"$3,850"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"property-tax"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"payment"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":"\n"}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"May"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"2026"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"$5,450.25"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"More"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"representative"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"baseline"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":"\n"}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"June"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"2026"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"$7,045.55"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"Higher"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"card,"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"travel,"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"and"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"shopping"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"activity"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":"\n"}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"**3-month"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"average**"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"**$7,512.17/mo**"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"Includes"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"April"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"property"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"tax"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":"\n"}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"**Average"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"excluding"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"April"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"property"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"tax**"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"**$6,228.83/mo**"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"Better"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"ongoing"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"monthly"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"baseline"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":"\n\n"}
+
+data: {"type":"text","chunk":"###"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"Monthly"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"baseline"}
+
+data: {"type":"text","chunk":"\n\n"}
+
+data: {"type":"text","chunk":"For"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"ongoing"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"planning,"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"I"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"would"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"use"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"**about"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"$6,230"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"per"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"month**."}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"The"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"raw"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"average"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"of"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"**$7,512**"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"is"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"mathematically"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"correct,"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"but"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"it"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"overstates"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"ordinary"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"monthly"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"spending"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"because"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"April"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"contains"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"the"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"$3,850"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"property-tax"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"payment."}
+
+data: {"type":"text","chunk":"\n\n"}
+
+data: {"type":"text","chunk":"If"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"that"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"tax"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"is"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"annual,"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"the"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"budget-safe"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"approach"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"is"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"to"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"reserve"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"**$321"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"per"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"month**"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"for"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"it."}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"That"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"produces"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"a"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"normalized"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"all-in"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"spending"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"target"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"of"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"approximately:"}
+
+data: {"type":"text","chunk":"\n\n"}
+
+data: {"type":"text","chunk":"**$6,230"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"ongoing"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"spending"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"+"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"$321"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"property-tax"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"reserve"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"="}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"$6,550"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"per"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"month**"}
+
+data: {"type":"text","chunk":"\n\n"}
+
+data: {"type":"text","chunk":"**Recommendation:**"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"Use"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"**$6,550/month**"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"as"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"your"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"household"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"spending"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"baseline"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"for"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"budgeting"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"and"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"affordability"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"decisions."}
+
+data: {"type":"text","chunk":"\n\n"}
+
+data: {"type":"text","chunk":"This"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"calculation"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"covers"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"April–June"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"2026,"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"the"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"three"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"complete"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"months"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"returned"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"from"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"your"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"connected"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"checking"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"and"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"card"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"accounts."}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"Transactions"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"are"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"live"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"as"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"of"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"July"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"14,"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"2026."}
+
+data: {"type":"provenance","provenance":{"domains":[{"name":"Checking & Savings","capability":"capability:plaid.getTransactions","balance_coverage_pct":100,"historical_coverage_pct":100,"verified_amount":22400,"inferred_amount":0,"accounts":[{"account_id":"m_checking","current_balance":22400,"current_balance_verified":true,"historical_series_verified":true}]},{"name":"Debt","capability":"capability:plaid.getTransactions","balance_coverage_pct":100,"historical_coverage_pct":100,"verified_amount":166.39,"inferred_amount":0,"accounts":[{"account_id":"m_amex","current_balance":48.39,"current_balance_verified":true,"historical_series_verified":true},{"account_id":"m_visa","current_balance":118,"current_balance_verified":true,"historical_series_verified":true}]}],"accounts":[],"accounts_analyzed":2,"transactions_scanned":100,"answer_coverage_pct":100,"portfolio_coverage_pct":100,"historical_coverage_pct":100,"confidence_pct":99,"confidence_factors":{"freshness":100,"historical_support":100,"completeness":100,"provenance_alignment":100,"lookup_success":100,"reconstruction":80},"claims":[],"failed_lookups":[],"alignment_penalties":[],"executionMs":71,"timestamp":"2026-07-14T15:10:33.120Z","cached":false,"coverage_pct":100,"confidence":"high","visible":[],"assumptions":[],"missing":[]}}
+
+data: {"type":"follow_ups","follow_ups":["Show my spending by category?","Why was June higher than May?","Which expenses are fixed versus discretionary?","How much monthly surplus do I have?"]}
+
+data: {"type":"sources","sources":[{"domain":"arthur","summary":"Routed via A2A to workspace Hyq3XBTvz5xJa4JIBKzG"}]}
+
+data: {"type":"done","conversationId":"conv_095cf9ac-e177-46f9-bbd8-da76faf52609","traceId":"86b4cd54c5d977d644dcf724"}
+
+data: [DONE]
+

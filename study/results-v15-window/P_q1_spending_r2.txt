@@ -1,0 +1,26 @@
+```chart
+{"chartType":"bar","title":"True Monthly Spending — Complete Months","labels":["April 2026","May 2026","June 2026"],"datasets":[{"label":"True spending","data":[10040.72,5450.25,7045.55]}],"xAxisLabel":null,"yAxisLabel":"Spending","stacked":false,"numberFormat":null,"annotations":null,"horizontal":false,"colors":["#3F718C"],"currency":"USD","totals":null}
+```
+> *Your true spending averaged **$7,512 per month** across the three complete months available.*
+
+I combined checking-account purchases and bills with actual Visa/Amex purchases, then excluded transfers and both sides of credit-card payments.
+
+| Complete month | True spending | Context |
+|---|---:|---|
+| April 2026 | $10,040.72 | Includes $3,850 property-tax payment |
+| May 2026 | $5,450.25 | More representative baseline |
+| June 2026 | $7,045.55 | Higher card, travel, and shopping activity |
+| **3-month average** | **$7,512.17/mo** | Includes April property tax |
+| **Average excluding April property tax** | **$6,228.83/mo** | Better ongoing monthly baseline |
+
+### Monthly baseline
+
+For ongoing planning, I would use **about $6,230 per month**. The raw average of **$7,512** is mathematically correct, but it overstates ordinary monthly spending because April contains the $3,850 property-tax payment.
+
+If that tax is annual, the budget-safe approach is to reserve **$321 per month** for it. That produces a normalized all-in spending target of approximately:
+
+**$6,230 ongoing spending + $321 property-tax reserve = $6,550 per month**
+
+**Recommendation:** Use **$6,550/month** as your household spending baseline for budgeting and affordability decisions.
+
+This calculation covers April–June 2026, the three complete months returned from your connected checking and card accounts. Transactions are live as of July 14, 2026.

@@ -1,0 +1,19 @@
+```chart
+{"chartType":"bar","title":"True Spending by Month — Transfers and Card Payments Excluded","labels":["April 2026","May 2026","June 2026","3-month average"],"datasets":[{"label":"True spending","data":[10554.48,6637.13,6699.69]}],"xAxisLabel":null,"yAxisLabel":"Spending","stacked":false,"numberFormat":null,"annotations":null,"horizontal":false,"colors":["#527A8A"],"currency":"USD","totals":null}
+```
+> *Your normalized household spending is about **$6,668 per month** based on May–June; April was unusually high because of a $3,850 property-tax payment.*
+
+I combined direct checking-account purchases with actual card purchases, then excluded transfers and credit-card payments so nothing was double-counted.
+
+| Full month | Checking/direct | Card purchases, net of refunds | True spending |
+|---|---:|---:|---:|
+| April 2026 | $9,364.99 | $1,189.49 | **$10,554.48** |
+| May 2026 | $5,475.48 | $1,161.65 | **$6,637.13** |
+| June 2026 | $5,025.39 | $1,674.30 | **$6,699.69** |
+| **3-month average** | **$6,621.95** | **$1,341.81** | **$7,963.77** |
+
+The **$7,964 three-month average is mathematically accurate**, but it overstates an ordinary month because April includes the annual property-tax bill. For budgeting, use **$6,668/month** as your current run rate. If you want annual obligations incorporated smoothly, add **$321/month** for the $3,850 property tax, producing a planning baseline of approximately **$6,989/month**.
+
+**Recommendation:** Use **$7,000 per month** as your all-in household spending baseline; it captures current ordinary spending plus a monthly reserve for the annual property-tax bill.
+
+These figures cover all three complete months from **April 1 through June 30, 2026**. The visible card payments matched the connected Visa and Amex accounts, so the spending picture appears complete rather than dependent on an unseen card.

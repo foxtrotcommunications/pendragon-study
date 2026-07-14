@@ -1,0 +1,17 @@
+```chart
+{"chartType":"bar","title":"True Spending by Month (Transfers and Card Payments Excluded)","labels":["April 2026","May 2026","June 2026"],"datasets":[{"label":"True spending","data":[10394.16,5254.92,6316.49]}],"xAxisLabel":null,"yAxisLabel":"Spending","stacked":false,"numberFormat":null,"annotations":[{"type":"line","value":7321.86,"label":"3-month average: $7,322","color":"#C08457","axis":"y"}],"horizontal":false,"colors":["#3B7286"],"currency":"USD","totals":null}
+```
+> *Your true spending averaged **$7,321.86 per month** across April–June 2026.*
+
+I excluded **$3,600 of internal transfers** and **$6,132.34 of credit-card payment entries** across checking and card accounts, then counted the underlying card purchases once.
+
+| Month | True spending | Context |
+|---|---:|---|
+| April | $10,394.16 | Includes $3,850 property-tax payment |
+| May | $5,254.92 | Regular month |
+| June | $6,316.49 | Higher card spending, including travel |
+| **3-month average** | **$7,321.86** | Includes April property tax |
+
+For a more representative ongoing run rate, removing April’s property-tax payment gives **$6,038.53 per month**. May and June alone average **$5,785.71**, so I would use **about $6,000/month** as your current baseline and separately budget for large periodic bills such as property tax.
+
+This is based on three complete months of transactions from both **Checking & Savings** and **Debt**, including a $70.64 card refund that reduced April spending.
