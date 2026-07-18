@@ -1,0 +1,16 @@
+```chart
+{"chartType":"bar","title":"True Monthly Spending by Account Source","labels":["Checking & Savings","Credit cards","Combined"],"datasets":[{"label":"Monthly spending","data":[5346,1164.16,6510.16]}],"xAxisLabel":null,"yAxisLabel":null,"stacked":false,"numberFormat":null,"annotations":null,"horizontal":true,"colors":["#4F7C8A"],"currency":"USD","totals":null}
+```
+> *Your combined baseline includes direct bank spending and credit-card purchases without double-counting card payments.*
+
+Your **true monthly spending is $6,510.16**, averaged over your full **24-month history from July 2024 through June 2026**.
+
+| Source | Monthly baseline |
+|---|---:|
+| Checking & savings outflows | $5,346.00 |
+| Credit-card purchases | $1,164.16 |
+| **Total true spending** | **$6,510.16** |
+
+Transfers between your accounts and credit-card payments are excluded. Use **about $6,510 per month** as your household baseline for budgeting and cash-runway calculations.
+
+This reflects the connected checking account and two connected cards; spending through any unconnected institutions is not included.

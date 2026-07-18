@@ -1,0 +1,272 @@
+[
+  {
+    "cell": "emergency_WML_r1",
+    "conversationId": "conv_fbe2ed44-608a-489d-b288-518fb42ed0c8",
+    "chars": 1708,
+    "ok": true
+  },
+  {
+    "cell": "emergency_WML_r2",
+    "conversationId": "conv_c5fbe5c0-732a-4fd3-ba3a-7d8eb9659d9b",
+    "chars": 1508,
+    "ok": true
+  },
+  {
+    "cell": "emergency_WML_r3",
+    "conversationId": "conv_e970d030-98b1-4fb0-8d14-bf51606848a8",
+    "chars": 1311,
+    "ok": true
+  },
+  {
+    "cell": "emergency_WML_r4",
+    "conversationId": "conv_6bf2cefb-de90-4b3f-b77e-019ef99aa714",
+    "chars": 1737,
+    "ok": true
+  },
+  {
+    "cell": "emergency_WML_r5",
+    "conversationId": "conv_a97ec892-5747-416d-b4d1-4b8a3dff9a97",
+    "chars": 1542,
+    "ok": true
+  },
+  {
+    "cell": "emergency_AAM_r1",
+    "conversationId": "conv_84f9cca0-6f25-4d09-aaff-1535f48a5c26",
+    "chars": 1712,
+    "ok": true
+  },
+  {
+    "cell": "emergency_AAM_r2",
+    "conversationId": "conv_da5075a6-f6bb-442a-9879-8f5e0b87c253",
+    "chars": 1519,
+    "ok": true
+  },
+  {
+    "cell": "emergency_AAM_r3",
+    "conversationId": "conv_a86cc496-1e83-41ef-b379-f80c2d0966fc",
+    "chars": 1652,
+    "ok": true
+  },
+  {
+    "cell": "emergency_AAM_r4",
+    "conversationId": "conv_75d526c3-9d92-4a3a-be66-f2d8309730e4",
+    "chars": 1842,
+    "ok": true
+  },
+  {
+    "cell": "emergency_AAM_r5",
+    "conversationId": "conv_c149a170-791a-4e1e-98a5-74a7b6de348a",
+    "chars": 1510,
+    "ok": true
+  },
+  {
+    "cell": "emergency_WFL_r1",
+    "conversationId": "conv_60778cc0-c9c9-43b9-8df3-9c05e00888c5",
+    "chars": 1455,
+    "ok": true
+  },
+  {
+    "cell": "emergency_WFL_r2",
+    "conversationId": "conv_a1ce184c-3f02-42c1-8d6a-0de0be97f275",
+    "chars": 1370,
+    "ok": true
+  },
+  {
+    "cell": "emergency_WFL_r3",
+    "conversationId": "conv_2be3a48a-cf1a-4a01-be9b-abae92f0b7a0",
+    "chars": 1619,
+    "ok": true
+  },
+  {
+    "cell": "emergency_WFL_r4",
+    "conversationId": "conv_a4996ca2-3d48-4559-958f-128f29d4e98c",
+    "chars": 1792,
+    "ok": true
+  },
+  {
+    "cell": "emergency_WFL_r5",
+    "conversationId": "conv_5b7edbc0-eaf8-4412-9c9b-252d65fe5c6d",
+    "chars": 1100,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_WML_r1",
+    "conversationId": "conv_24747da4-759a-42c3-bf08-1c8f75625225",
+    "chars": 3546,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_WML_r2",
+    "conversationId": "conv_e614dd5f-81db-4a8b-8b07-6040d453c440",
+    "chars": 3389,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_WML_r3",
+    "conversationId": "conv_6fa1e028-01b3-4eb7-b63e-aeea85960bc2",
+    "chars": 4079,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_WML_r4",
+    "conversationId": "conv_943d77ec-170e-4abf-8004-e4daa94b88ed",
+    "chars": 3507,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_WML_r5",
+    "conversationId": "conv_2f2daf06-e4e8-46ff-99a3-aaff7ce3fcef",
+    "chars": 3242,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_AAM_r1",
+    "conversationId": "conv_b7d54f2e-b10a-4bb9-ab13-33747743ec1a",
+    "chars": 2877,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_AAM_r2",
+    "conversationId": "conv_3b796f9e-3d14-45dc-b478-1631e359a7b3",
+    "chars": 3078,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_AAM_r3",
+    "conversationId": "conv_6e063ee6-3b7d-423b-989d-35ff9ec9ae5d",
+    "chars": 3162,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_AAM_r4",
+    "conversationId": "conv_6cb1e112-5dba-4d12-b70c-895c035ba7ba",
+    "chars": 4443,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_AAM_r5",
+    "conversationId": "conv_c37593ab-80ad-4d64-b3ce-f802cf8dbc84",
+    "chars": 2643,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_WFL_r1",
+    "conversationId": "conv_bd552027-1a5d-4d8a-83a0-ebf49fedcdc8",
+    "chars": 2806,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_WFL_r2",
+    "conversationId": "conv_79bf3413-01e0-433f-a51d-895b4f2b2bcb",
+    "chars": 2402,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_WFL_r3",
+    "conversationId": "conv_d559f496-2660-4056-b7f9-cb1debe9f600",
+    "chars": 3980,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_WFL_r4",
+    "conversationId": "conv_e7a613e5-81a8-4b28-adb7-e15cdc74da67",
+    "chars": 2782,
+    "ok": true
+  },
+  {
+    "cell": "withdrawal_WFL_r5",
+    "conversationId": "conv_0c5e6c58-04bf-40f0-bea2-063f739ee00c",
+    "chars": 3476,
+    "ok": true
+  },
+  {
+    "cell": "portfolio_WML_r1",
+    "conversationId": "conv_2f4495fa-5994-4c62-875f-3d767762a0c7",
+    "chars": 3564,
+    "ok": true
+  },
+  {
+    "cell": "portfolio_WML_r2",
+    "conversationId": "conv_85b2ee1f-0a48-4126-bf99-4ceb9b06ad8b",
+    "chars": 3466,
+    "ok": true
+  },
+  {
+    "cell": "portfolio_WML_r3",
+    "conversationId": "conv_0614707e-3c21-475d-bf16-a3ff0bd1ea25",
+    "chars": 3864,
+    "ok": true
+  },
+  {
+    "cell": "portfolio_WML_r4",
+    "conversationId": "conv_e1b490c5-ec1c-425f-b9cd-aefaf66d857b",
+    "chars": 4926,
+    "ok": true
+  },
+  {
+    "cell": "portfolio_WML_r5",
+    "conversationId": "conv_b7539d1c-3bb2-4d4a-b289-7431dd674ccc",
+    "chars": 4532,
+    "ok": true
+  },
+  {
+    "cell": "portfolio_AAM_r1",
+    "conversationId": "conv_52056b89-fa99-4953-9c2e-b51c3bf81754",
+    "chars": 3774,
+    "ok": true
+  },
+  {
+    "cell": "portfolio_AAM_r2",
+    "conversationId": "conv_924999c0-1e6f-4479-b3c2-ccba5e1d21bf",
+    "chars": 3489,
+    "ok": true
+  },
+  {
+    "cell": "portfolio_AAM_r3",
+    "conversationId": "conv_a7947e9b-9642-468c-88c0-ec32e4b206f6",
+    "chars": 4851,
+    "ok": true
+  },
+  {
+    "cell": "portfolio_AAM_r4",
+    "conversationId": "conv_380e216b-fb7b-4a43-9b9f-f5b46db17922",
+    "chars": 4728,
+    "ok": true
+  },
+  {
+    "cell": "portfolio_AAM_r5",
+    "conversationId": "conv_665909d3-2666-4917-9121-5732adaa61dc",
+    "chars": 3819,
+    "ok": true
+  },
+  {
+    "cell": "portfolio_WFL_r1",
+    "conversationId": "conv_b402283b-ec93-426f-957d-2a1cc3360ef3",
+    "chars": 4661,
+    "ok": true
+  },
+  {
+    "cell": "portfolio_WFL_r2",
+    "conversationId": "conv_0c7501c1-2cb0-478f-8a2f-8853d05664e6",
+    "chars": 3787,
+    "ok": true
+  },
+  {
+    "cell": "portfolio_WFL_r3",
+    "conversationId": "conv_22f00d6e-bad0-4be6-b3de-a8a5b5a378d1",
+    "chars": 5023,
+    "ok": true
+  },
+  {
+    "cell": "portfolio_WFL_r4",
+    "conversationId": "conv_d18f4d7d-b9f1-464f-8eb6-d8decc7613d3",
+    "chars": 4083,
+    "ok": true
+  },
+  {
+    "cell": "portfolio_WFL_r5",
+    "conversationId": "conv_c0983a6e-f95c-4cc4-a6ce-c56508b76de8",
+    "chars": 4567,
+    "ok": true
+  }
+]

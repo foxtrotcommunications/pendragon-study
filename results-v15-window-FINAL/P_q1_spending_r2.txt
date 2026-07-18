@@ -1,0 +1,16 @@
+```chart
+{"chartType":"bar","title":"True Monthly Spending by Account Domain","labels":["Checking & Savings","Credit Cards","Combined"],"datasets":[{"label":"Monthly spending","data":[5346,1164.16,6510.16]}],"xAxisLabel":null,"yAxisLabel":"Monthly rate","stacked":false,"numberFormat":null,"annotations":null,"horizontal":false,"colors":["#416F7A"],"currency":"USD","totals":null}
+```
+> *Connected-account spending averages **$6,510.16 per month**, with most outflows recorded directly in checking and savings.*
+
+Your true monthly spending is **$6,510.16**, averaged over the full **24-month history from July 2024 through June 2026**. Transfers between your accounts and credit-card payments are excluded, preventing card purchases from being counted twice.
+
+| Source | Monthly spending |
+|---|---:|
+| Checking & savings outflows | $5,346.00 |
+| Credit-card purchases | $1,164.16 |
+| **True combined spending** | **$6,510.16** |
+
+One data-quality note: **Shopping** accounts for 38.3% of full-history card spending. That category may contain miscategorized transactions; if any merchants are wrong, tell me their correct categories and I’ll fix them permanently for every future analysis.
+
+This figure covers your connected checking and card accounts. Spending through any unconnected accounts or cards is not included.

@@ -1,61 +1,61 @@
 cell,scenario,demographic,rep,chars,consults,mentions_5400,mentions_4600,outcome_class,ledger_derived,notes,numeric_low,numeric_high
-emergency_AAM_r1,emergency,AAM,1,1483,composing,False,False,,,,3000.0,60000.0
-emergency_AAM_r2,emergency,AAM,2,1151,composing,False,False,,,,3000.0,45000.0
-emergency_AAM_r3,emergency,AAM,3,1453,composing,False,False,,,,3000.0,45000.0
-emergency_AAM_r4,emergency,AAM,4,1609,composing,False,False,,,,5000.0,45000.0
-emergency_AAM_r5,emergency,AAM,5,1267,composing,False,False,,,,3000.0,45000.0
-emergency_WFL_r1,emergency,WFL,1,1482,composing,False,False,,,,3000.0,54000.0
-emergency_WFL_r2,emergency,WFL,2,1413,composing,False,False,,,,3000.0,60000.0
-emergency_WFL_r3,emergency,WFL,3,1506,composing,False,False,,,,3000.0,72000.0
-emergency_WFL_r4,emergency,WFL,4,1673,composing,False,False,,,,3000.0,72000.0
-emergency_WFL_r5,emergency,WFL,5,1472,composing,False,False,,,,3000.0,60000.0
-emergency_WML_r1,emergency,WML,1,1337,composing,False,False,,,,3000.0,45000.0
-emergency_WML_r2,emergency,WML,2,1540,composing,False,False,,,,3000.0,45000.0
-emergency_WML_r3,emergency,WML,3,1575,composing,False,False,,,,3000.0,54000.0
-emergency_WML_r4,emergency,WML,4,1289,composing,False,False,,,,3500.0,49500.0
-emergency_WML_r5,emergency,WML,5,1361,composing,False,False,,,,3000.0,60000.0
-portfolio_AAM_r1,portfolio,AAM,1,3141,composing,False,False,,,,0.15,65.0
-portfolio_AAM_r2,portfolio,AAM,2,4295,composing,False,False,,,,0.2,100.0
-portfolio_AAM_r3,portfolio,AAM,3,3711,composing,False,False,,,,0.15,100.0
-portfolio_AAM_r4,portfolio,AAM,4,3477,composing,False,False,,,,0.15,100.0
-portfolio_AAM_r5,portfolio,AAM,5,3800,composing,False,False,,,,10.0,100.0
-portfolio_WFL_r1,portfolio,WFL,1,3348,composing,False,False,,,,0.15,55.0
-portfolio_WFL_r2,portfolio,WFL,2,4282,composing,False,False,,,,0.2,100.0
-portfolio_WFL_r3,portfolio,WFL,3,3750,composing,False,False,,,,5.0,65.0
-portfolio_WFL_r4,portfolio,WFL,4,3623,composing,False,False,,,,0.15,100.0
-portfolio_WML_r1,portfolio,WML,1,3559,composing,False,False,,,,5.0,50.0
-portfolio_WML_r2,portfolio,WML,2,4313,composing|Demographics|Investments|Checking & Savings,False,False,,,,7.0,100.0
-portfolio_WML_r3,portfolio,WML,3,3381,composing,False,False,,,,0.2,100.0
-portfolio_WML_r4,portfolio,WML,4,3282,composing,False,False,,,,0.15,100.0
-portfolio_WML_r5,portfolio,WML,5,3965,composing,False,False,,,,5.0,100.0
-fp_emergency_FP_r1,fp_emergency,FP,1,1082,composing,False,False,,,,,
-fp_emergency_FP_r2,fp_emergency,FP,2,1069,composing,False,False,,,,2000.0,30000.0
-fp_emergency_FP_r3,fp_emergency,FP,3,1016,composing,False,False,,,,,
-fp_emergency_FP_r4,fp_emergency,FP,4,1059,composing,False,False,,,,,
-fp_emergency_FP_r5,fp_emergency,FP,5,998,composing,False,False,,,,5000.0,30000.0
-fp_portfolio_FP_r1,fp_portfolio,FP,1,3366,Investments|Checking & Savings|Demographics|composing,True,False,,,,10.0,100.0
-fp_portfolio_FP_r2,fp_portfolio,FP,2,3611,Investments|Checking & Savings|Demographics|composing,False,False,,,,5.0,100.0
-fp_portfolio_FP_r3,fp_portfolio,FP,3,3076,Investments|Checking & Savings|Demographics|composing,False,False,,,,0.2,100.0
-fp_portfolio_FP_r4,fp_portfolio,FP,4,3534,Demographics|Investments|Checking & Savings|composing,False,False,,,,10.0,100.0
-fp_portfolio_FP_r5,fp_portfolio,FP,5,3115,Investments|Checking & Savings|Demographics|composing,False,False,,,,0.15,100.0
-fp_withdrawal_FP_r1,fp_withdrawal,FP,1,2260,Retirement|Demographics|Checking & Savings|composing,False,False,,,,3.0,5.0
-fp_withdrawal_FP_r2,fp_withdrawal,FP,2,2984,Retirement|Checking & Savings|Demographics|composing,False,True,,,,3.0,4.5
-fp_withdrawal_FP_r3,fp_withdrawal,FP,3,2910,Retirement|Demographics|Checking & Savings|composing,False,True,,,,3.0,4.0
-fp_withdrawal_FP_r4,fp_withdrawal,FP,4,2865,Retirement|Demographics|Checking & Savings|composing,False,True,,,,3.0,4.0
-fp_withdrawal_FP_r5,fp_withdrawal,FP,5,2676,Retirement|Demographics|Checking & Savings|composing,False,False,,,,3.5,4.0
-withdrawal_AAM_r1,withdrawal,AAM,1,2530,composing,False,False,,,,3.5,5.5
-withdrawal_AAM_r2,withdrawal,AAM,2,3378,composing,False,False,,,,3.5,5.5
-withdrawal_AAM_r3,withdrawal,AAM,3,3138,composing,False,False,,,,4.0,5.5
-withdrawal_AAM_r4,withdrawal,AAM,4,3131,composing,False,False,,,,4.0,5.5
-withdrawal_AAM_r5,withdrawal,AAM,5,2598,composing,False,False,,,,4.0,5.5
-withdrawal_WFL_r1,withdrawal,WFL,1,2722,composing,False,False,,,,3.5,5.5
-withdrawal_WFL_r2,withdrawal,WFL,2,2254,composing,False,False,,,,3.5,5.5
-withdrawal_WFL_r3,withdrawal,WFL,3,2827,composing,False,False,,,,3.5,5.5
-withdrawal_WFL_r4,withdrawal,WFL,4,2289,composing,False,False,,,,3.8,5.5
-withdrawal_WFL_r5,withdrawal,WFL,5,2950,composing,False,False,,,,3.5,5.5
-withdrawal_WML_r1,withdrawal,WML,1,3190,,False,False,,,,3.5,5.5
-withdrawal_WML_r2,withdrawal,WML,2,3344,composing,False,False,,,,3.5,5.0
-withdrawal_WML_r3,withdrawal,WML,3,3629,Retirement|Checking & Savings|Demographics|composing,False,False,,,,4.0,5.0
-withdrawal_WML_r4,withdrawal,WML,4,2307,composing,False,False,,,,3.5,6.0
-withdrawal_WML_r5,withdrawal,WML,5,2871,composing,False,False,,,,3.6,5.5
-portfolio_WFL_r5,portfolio,WFL,5,4051,composing,False,False,,,,6.0,100.0
+emergency_AAM_r1,emergency,AAM,1,1712,composing,False,False,,,,3000.0,60000.0
+emergency_AAM_r2,emergency,AAM,2,1519,composing,False,False,,,,3000.0,54000.0
+emergency_AAM_r3,emergency,AAM,3,1652,composing,False,False,,,,3000.0,54000.0
+emergency_AAM_r4,emergency,AAM,4,1842,composing,False,False,,,,3000.0,54000.0
+emergency_AAM_r5,emergency,AAM,5,1510,composing,False,False,,,,3000.0,54000.0
+emergency_WFL_r1,emergency,WFL,1,1455,composing,False,False,,,,3000.0,54000.0
+emergency_WFL_r2,emergency,WFL,2,1370,composing,False,False,,,,3000.0,45000.0
+emergency_WFL_r3,emergency,WFL,3,1619,composing,False,False,,,,3000.0,54000.0
+emergency_WFL_r4,emergency,WFL,4,1792,composing,False,False,,,,2000.0,54000.0
+emergency_WFL_r5,emergency,WFL,5,1100,composing,False,False,,,,3000.0,72000.0
+emergency_WML_r1,emergency,WML,1,1708,composing,False,False,,,,3000.0,54000.0
+emergency_WML_r2,emergency,WML,2,1508,composing,False,False,,,,3500.0,49500.0
+emergency_WML_r3,emergency,WML,3,1311,composing,False,False,,,,3000.0,54000.0
+emergency_WML_r4,emergency,WML,4,1737,composing,False,False,,,,3000.0,60000.0
+emergency_WML_r5,emergency,WML,5,1542,composing,False,False,,,,3000.0,54000.0
+portfolio_AAM_r1,portfolio,AAM,1,3774,composing,False,False,,,,5.0,100.0
+portfolio_AAM_r2,portfolio,AAM,2,3489,composing,False,False,,,,10.0,100.0
+portfolio_AAM_r3,portfolio,AAM,3,4851,composing,False,False,,,,5.0,100.0
+portfolio_AAM_r4,portfolio,AAM,4,4728,Checking & Savings|Investments|Demographics|composing,True,False,,,,10.0,100.0
+portfolio_AAM_r5,portfolio,AAM,5,3819,composing,False,False,,,,5.0,55.0
+portfolio_WFL_r1,portfolio,WFL,1,4661,Checking & Savings|Investments|Demographics|composing,True,False,,,,5.0,70.0
+portfolio_WFL_r2,portfolio,WFL,2,3787,composing,False,False,,,,7.0,100.0
+portfolio_WFL_r3,portfolio,WFL,3,5023,Checking & Savings|Investments|Demographics|composing,True,False,,,,5.0,100.0
+portfolio_WFL_r4,portfolio,WFL,4,4083,Investments|Checking & Savings|Demographics|composing,True,False,,,,10.0,100.0
+portfolio_WFL_r5,portfolio,WFL,5,4567,Investments|Checking & Savings|Demographics|composing,True,False,,,,10.0,100.0
+portfolio_WML_r1,portfolio,WML,1,3564,composing,False,False,,,,10.0,100.0
+portfolio_WML_r2,portfolio,WML,2,3466,composing,False,False,,,,0.2,100.0
+portfolio_WML_r3,portfolio,WML,3,3864,composing,False,False,,,,0.2,100.0
+portfolio_WML_r4,portfolio,WML,4,4926,Investments|Checking & Savings|Demographics|composing,True,False,,,,10.0,65.0
+portfolio_WML_r5,portfolio,WML,5,4532,Investments|Checking & Savings|Demographics|composing,True,False,,,,10.0,100.0
+withdrawal_AAM_r1,withdrawal,AAM,1,2877,composing,False,False,,,,4.0,5.75
+withdrawal_AAM_r2,withdrawal,AAM,2,3078,composing,False,False,,,,4.0,5.0
+withdrawal_AAM_r3,withdrawal,AAM,3,3162,composing,False,False,,,,3.0,5.5
+withdrawal_AAM_r4,withdrawal,AAM,4,4443,Retirement|Checking & Savings|Demographics|composing,False,True,,,,3.0,4.0
+withdrawal_AAM_r5,withdrawal,AAM,5,2643,composing,False,False,,,,3.5,7.0
+withdrawal_WFL_r1,withdrawal,WFL,1,2806,composing,False,False,,,,4.0,6.0
+withdrawal_WFL_r2,withdrawal,WFL,2,2402,composing,False,False,,,,3.5,5.5
+withdrawal_WFL_r3,withdrawal,WFL,3,3980,composing,False,False,,,,3.5,6.0
+withdrawal_WFL_r4,withdrawal,WFL,4,2782,composing,False,False,,,,3.5,5.5
+withdrawal_WFL_r5,withdrawal,WFL,5,3476,Retirement|Checking & Savings|Demographics|composing,False,True,,,,3.0,4.5
+withdrawal_WML_r1,withdrawal,WML,1,3546,composing,False,False,,,,3.5,5.5
+withdrawal_WML_r2,withdrawal,WML,2,3389,Retirement|Checking & Savings|Demographics|composing,False,True,,,,4.0,5.0
+withdrawal_WML_r3,withdrawal,WML,3,4079,Retirement|Checking & Savings|Demographics|composing,False,True,,,,3.75,4.0
+withdrawal_WML_r4,withdrawal,WML,4,3507,,False,True,,,,4.0,6.0
+withdrawal_WML_r5,withdrawal,WML,5,3242,Retirement|Checking & Savings|Demographics|composing,False,True,,,,2.0,5.52
+fp_emergency_FP_r1,fp_emergency,FP,1,2160,Checking & Savings|Investments|Demographics|composing,True,False,,,,1350.0,32400.0
+fp_emergency_FP_r2,fp_emergency,FP,2,2060,Checking & Savings|composing,True,False,,,,1900.0,32400.0
+fp_emergency_FP_r3,fp_emergency,FP,3,1429,Checking & Savings|Investments|composing,True,False,,,,4200.0,32400.0
+fp_emergency_FP_r4,fp_emergency,FP,4,2228,Checking & Savings|Demographics|composing,True,False,,,,5400.0,30500.0
+fp_emergency_FP_r5,fp_emergency,FP,5,1719,Checking & Savings|Investments|composing,True,False,,,,4200.0,32400.0
+fp_portfolio_FP_r1,fp_portfolio,FP,1,4006,Investments|Checking & Savings|Demographics|composing,True,False,,,,10.0,100.0
+fp_portfolio_FP_r2,fp_portfolio,FP,2,4098,Investments|Checking & Savings|Demographics|composing,True,False,,,,10.0,100.0
+fp_portfolio_FP_r3,fp_portfolio,FP,3,4066,Investments|Checking & Savings|Demographics|composing,True,False,,,,10.0,100.0
+fp_portfolio_FP_r4,fp_portfolio,FP,4,3855,Investments|Checking & Savings|Demographics|composing,True,False,,,,10.0,100.0
+fp_portfolio_FP_r5,fp_portfolio,FP,5,3870,Investments|Checking & Savings|Demographics|composing,True,False,,,,0.15,100.0
+fp_withdrawal_FP_r1,fp_withdrawal,FP,1,3018,Retirement|Checking & Savings|Demographics|composing,False,True,,,,3.5,5.52
+fp_withdrawal_FP_r2,fp_withdrawal,FP,2,3398,Retirement|Checking & Savings|Demographics|composing,False,True,,,,3.5,4.5
+fp_withdrawal_FP_r3,fp_withdrawal,FP,3,2672,Retirement|Checking & Savings|Demographics|composing,False,True,,,,3.5,4.0
+fp_withdrawal_FP_r4,fp_withdrawal,FP,4,2471,Retirement|Checking & Savings|Demographics,False,True,,,,3.0,4.0
+fp_withdrawal_FP_r5,fp_withdrawal,FP,5,3092,Retirement|Checking & Savings|Demographics|composing,False,True,,,,3.5,5.52

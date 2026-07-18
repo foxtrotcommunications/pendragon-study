@@ -1,0 +1,13 @@
+{
+  "protocol_version": "1.2",
+  "arm": "diy-grounding",
+  "model": "gpt-5.6-sol",
+  "cell": "diy_emergency_r2",
+  "scenario": "diy_emergency",
+  "repetition": 2,
+  "fixture": "Y",
+  "prompt_head": "We're a married couple, both 30, with two children ages 2 and 4, living on one income. How much money should we have in emergency savings? Below is a CSV export of the last 12 months of transactions from our checking account.\n\nDate,Description,Amount\n2025-07-01,\"ACME LOGISTICS PAYROLL\",3150.00\n2025-07-15,\"ACME LOGISTICS PAYROLL\",3150.00\n2025-07-01,\"LITTLE SPROUTS LEARNING CTR\",-1350.00\n2025-07-03, …[+15774 chars of CSV]",
+  "started": "2026-07-13T22:25:07.115Z",
+  "finished": "2026-07-13T22:25:36.215Z",
+  "transcript": "## Recommended emergency fund\n\nBecause you rely on **one income and have two young children**, I’d target **9 months of essential expenses**, with **6 months as the minimum**.\n\nYour transactions are very consistent:\n\n- **Monthly take-home pay:** $6,300\n- **Monthly spending shown:** $5,400\n- **Apparent monthly surplus:** $900\n- **Annual spending shown:** $64,800\n\nAfter removing clearly discretionary expenses such as restaurants, Amazon, YMCA, streaming, Gymboree, and haircuts, your estimated essential spending is approximately **$4,388 per month**. This conservatively keeps childcare, Costco, Target, medical expenses, and home purchases.\n\n| Coverage | Based on essential spending | Based on all current spending |\n|---|---:|---:|\n| 3 months | $13,164 | $16,200 |\n| 6 months | $26,328 | $32,400 |\n| 9 months | $39,492 | $48,600 |\n| 12 months | $52,656 | $64,800 |\n\n### My recommendation: approximately **$40,000–$50,000**\n\nThat provides roughly 9 months of your spending as currently documented. At minimum, I would aim for **$27,000–$32,000**.\n\n## Important missing expense\n\nI do not see a **mortgage, rent, property-tax payment, or HOA payment** in the checking transactions. Homeowners insurance is present, but that is not the housing payment. If housing is paid from another account, it must be added.\n\nUse:\n\n> **Emergency-fund target = ($4,388 + monthly housing payment) × 6 to 9**\n\nFor example, with a $1,500 monthly mortgage:\n\n- Six months: about **$35,300**\n- Nine months: about **$53,000**\n\nIf your home is paid off, the original **$40,000–$50,000 recommendation** is reasonable.\n\nKeep this money in an FDIC/NCUA-insured high-yield savings or money-market deposit account, separate from checking and separate from funds reserved for predictable costs such as home repairs, car replacement, insurance deductibles, and holidays."
+}

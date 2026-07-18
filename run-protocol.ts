@@ -79,6 +79,41 @@ const TOKENS: Record<'Y' | 'R', string | undefined> = {
 /* ── Chat driver: POST /api/chat/stream, fresh conversation, collect SSE ── */
 const PROVISIONING_SENTINEL = "I'm still getting set up";
 
+/* ── Token refresh (implements what the header always promised).
+   idTokens expire hourly; a 60-conversation run outlives them (learned the
+   hard way: 31 of 45 cells died on 401 mid-run, 2026-07-17). Refresh via
+   securetoken with STUDY_*_REFRESH + STUDY_API_KEY, proactively at 40 min
+   and reactively on 401. ── */
+const REFRESH: Record<'Y' | 'R', string | undefined> = {
+  Y: process.env.STUDY_Y_REFRESH,
+  R: process.env.STUDY_R_REFRESH,
+};
+const API_KEY = process.env.STUDY_API_KEY;
+const TOKEN_MINTED_AT: Record<'Y' | 'R', number> = { Y: Date.now(), R: Date.now() };
+const TOKEN_MAX_AGE_MS = 40 * 60 * 1000;
+
+async function refreshToken(fixture: 'Y' | 'R'): Promise<void> {
+  if (!REFRESH[fixture] || !API_KEY) return; // nothing to refresh with
+  const res = await fetch(`https://securetoken.googleapis.com/v1/token?key=${API_KEY}`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: `grant_type=refresh_token&refresh_token=${encodeURIComponent(REFRESH[fixture]!)}`,
+  });
+  if (!res.ok) throw new Error(`token refresh (${fixture}) failed: ${res.status}`);
+  const data = await res.json() as { id_token: string; refresh_token?: string };
+  TOKENS[fixture] = data.id_token;
+  if (data.refresh_token) REFRESH[fixture] = data.refresh_token;
+  TOKEN_MINTED_AT[fixture] = Date.now();
+  process.stderr.write(`[token refreshed: ${fixture}] `);
+}
+
+async function freshToken(fixture: 'Y' | 'R'): Promise<string> {
+  if (Date.now() - TOKEN_MINTED_AT[fixture] > TOKEN_MAX_AGE_MS) await refreshToken(fixture);
+  const token = TOKENS[fixture];
+  if (!token) throw new Error(`Missing STUDY_${fixture}_TOKEN`);
+  return token;
+}
+
 async function runConversation(fixture: 'Y' | 'R', prompt: string): Promise<{ transcript: string; raw: string; conversationId: string }> {
   // The provisioning sentinel is infrastructure noise (Arthur pod waking
   // after spot preemption), not model output — retry until a real answer.
@@ -92,13 +127,17 @@ async function runConversation(fixture: 'Y' | 'R', prompt: string): Promise<{ tr
 }
 
 async function runConversationOnce(fixture: 'Y' | 'R', prompt: string): Promise<{ transcript: string; raw: string; conversationId: string }> {
-  const token = TOKENS[fixture];
-  if (!token) throw new Error(`Missing STUDY_${fixture}_TOKEN`);
-  const res = await fetch(`${BASE}/api/chat/stream`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
-    body: JSON.stringify({ message: prompt }), // no conversationId → fresh conversation
-  });
+  let res!: Response;
+  for (let auth = 0; auth < 2; auth++) {
+    const token = await freshToken(fixture);
+    res = await fetch(`${BASE}/api/chat/stream`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+      body: JSON.stringify({ message: prompt }), // no conversationId → fresh conversation
+    });
+    if (res.status === 401 && auth === 0) { await refreshToken(fixture); continue; }
+    break;
+  }
   if (!res.ok) throw new Error(`chat/stream ${res.status}: ${(await res.text()).slice(0, 300)}`);
 
   // Collect the SSE stream; keep the raw event log AND assemble the visible

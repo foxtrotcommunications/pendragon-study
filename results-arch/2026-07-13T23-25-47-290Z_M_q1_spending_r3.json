@@ -1,0 +1,13 @@
+{
+  "protocol_version": "1.3",
+  "arm": "specialist-vs-monolith",
+  "system": "M",
+  "model": "gpt-5.6-sol",
+  "cell": "M_q1_spending_r3",
+  "question": "q1_spending",
+  "repetition": 3,
+  "prompt": "What is our true monthly spending — excluding transfers between our own accounts and credit-card payments?",
+  "started": "2026-07-14T00:31:37.372Z",
+  "finished": "2026-07-14T00:32:47.869Z",
+  "transcript": "## True monthly spending\n\nAcross **July 2024 through June 2026 (24 months)**:\n\n| Source | 24-month spending | Monthly average |\n|---|---:|---:|\n| Checking-account purchases/bills | $128,304.01 | $5,346.00 |\n| Visa purchases, net of refunds | $12,707.04 | $529.46 |\n| Amex purchases | $14,978.88 | $624.12 |\n| **Total true spending** | **$155,989.93** | **$6,499.58** |\n\n### Result\n\n**Your true average monthly spending is approximately $6,500.**\n\nYour **median month is about $5,901**, which better represents an ordinary month because the average includes property taxes, annual insurance, auto repair, medical expenses, and the $2,380 vacation purchase.\n\n### Exclusions and treatment\n\nI excluded:\n\n- **$800/month brokerage transfers**\n- **$200/month to each 529**, or $400 total\n- Checking-account payments to Visa and Amex\n- Matching payment credits on the cards\n- Payroll, bonus, and Upwork income\n\nI counted:\n\n- All direct checking expenses\n- Credit-card purchases when charged, not when paid\n- Visa refunds as reductions in spending\n- Annual and irregular costs, including:\n  - Property taxes\n  - State Farm premiums\n  - Auto repair\n  - Emergency medical bill\n  - Southwest vacation\n\nThus, the $6,500 figure includes both ordinary living expenses and the monthly equivalent of irregular spending. Your separate **$1,200/month of brokerage and 529 contributions is saving/investing, not spending**."
+}

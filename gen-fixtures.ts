@@ -21,7 +21,7 @@
 /* Fixed anchor so re-runs generate identical rows. */
 const FIXTURE_END = new Date(Date.UTC(2026, 5, 30)); // 2026-06-30: months = Jul 2025..Jun 2026
 
-interface MonthlyItem {
+export interface MonthlyItem {
   slug: string;          // stable id fragment
   name: string;          // transaction name (bank-statement style)
   merchant: string;      // merchant_name
@@ -37,7 +37,7 @@ interface MonthlyItem {
 // anomaly recorded in FIXTURES.md.
 
 /* ── Fixture Y: young family — outflows sum to exactly $5,400/mo ── */
-const Y_CHECKING: MonthlyItem[] = [
+export const Y_CHECKING: MonthlyItem[] = [
   // Income: $6,300/mo net (semi-monthly)
   { slug: 'payroll', name: 'ACME LOGISTICS PAYROLL', merchant: 'Acme Logistics', category: 'Income', amount: -3150.00, days: [1, 15] },
 
@@ -78,7 +78,7 @@ const Y_INVEST_ACCOUNTS = [
 ];
 
 /* ── Fixture R: retiree family — outflows sum to exactly $4,600/mo ── */
-const R_CHECKING: MonthlyItem[] = [
+export const R_CHECKING: MonthlyItem[] = [
   // Income: Social Security ($4,270/mo) + IRA distribution ($1,200/mo)
   { slug: 'ss-lead', name: 'SSA TREAS 310 XXSOC SEC', merchant: 'Social Security Administration', category: 'Income', amount: -2380.00, days: [3] },
   { slug: 'ss-spouse', name: 'SSA TREAS 310 XXSOC SEC', merchant: 'Social Security Administration', category: 'Income', amount: -1890.00, days: [3] },
@@ -133,7 +133,7 @@ function emitAccounts(ws: string, accts: typeof Y_ACCOUNTS): string[] {
   );
 }
 
-function monthsCovered(): { y: number; m: number }[] {
+export function monthsCovered(): { y: number; m: number }[] {
   const out: { y: number; m: number }[] = [];
   const d = new Date(FIXTURE_END);
   for (let i = 11; i >= 0; i--) {
@@ -176,7 +176,8 @@ function emitMerchantMemory(ws: string, items: MonthlyItem[]): string[] {
   );
 }
 
-/* ── Main ── */
+/* ── Main (only when invoked directly, not when imported) ── */
+if (process.argv[1] && process.argv[1].endsWith('gen-fixtures.ts')) {
 const [fixture, wsA, wsB] = process.argv.slice(2);
 if (!fixture || !wsA || !wsB) {
   console.error('Usage: gen-fixtures.ts <Y|R> <checking_ws_id> <investments|retirement_ws_id>');
@@ -197,3 +198,4 @@ if (fixture.toUpperCase() === 'Y') {
 }
 sql.push('COMMIT;');
 console.log(sql.join('\n'));
+}

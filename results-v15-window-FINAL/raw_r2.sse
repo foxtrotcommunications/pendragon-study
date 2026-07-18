@@ -1,0 +1,686 @@
+data: {"type":"conversation","conversationId":"conv_d782ca27-3a6d-4bc2-8d64-be9dc3aecb03"}
+
+data: {"type":"routing","domain":"planning","status":"Planning analysis"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"planning","status":"done"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"Checking & Savings","status":"Checking cash flow"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"Checking & Savings","status":"done"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"Debt","status":"Consulting Debt"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"Debt","status":"done"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"arthur","status":"Analyzing across your domains..."}
+
+data: {"type":"routing","domain":"Checking & Savings","status":"Checking cash flow"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"Checking & Savings","status":"done"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"Debt","status":"Consulting Debt"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"workspace","status":"done"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"Debt","status":"Consulting Debt"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"Debt","status":"done"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"Debt","status":"Consulting Debt"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"Debt","status":"done"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"chart","status":"Generating chart"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"chart","status":"done"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"arthur","status":"Analyzing across your domains..."}
+
+data: {"type":"routing","domain":"arthur","status":"Cross-referencing your accounts..."}
+
+data: {"type":"routing","domain":"arthur","status":"Running calculations..."}
+
+data: {"type":"routing","domain":"arthur","status":"Reviewing your data..."}
+
+data: {"type":"routing","domain":"provenance","status":"Verifying sources"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"provenance","status":"done"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"composing","status":"Composing response"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"routing","domain":"arthur","status":"Analyzing across your domains..."}
+
+data: {"type":"routing","domain":"composing","status":"done"}
+
+data: {"type":"routing","domain":"arthur","status":"Arthur is consulting specialists..."}
+
+data: {"type":"text","chunk":"```chart"}
+
+data: {"type":"text","chunk":"\n"}
+
+data: {"type":"text","chunk":"{\"chartType\":\"bar\",\"title\":\"True"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"Monthly"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"Spending"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"by"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"Account"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"Domain\",\"labels\":[\"Checking"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"&"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"Savings\",\"Credit"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"Cards\",\"Combined\"],\"datasets\":[{\"label\":\"Monthly"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"spending\",\"data\":[5346,1164.16,6510.16]}],\"xAxisLabel\":null,\"yAxisLabel\":\"Monthly"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"rate\",\"stacked\":false,\"numberFormat\":null,\"annotations\":null,\"horizontal\":false,\"colors\":[\"#416F7A\"],\"currency\":\"USD\",\"totals\":null}"}
+
+data: {"type":"text","chunk":"\n"}
+
+data: {"type":"text","chunk":"```"}
+
+data: {"type":"text","chunk":"\n"}
+
+data: {"type":"text","chunk":">"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"*Connected-account"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"spending"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"averages"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"**$6,510.16"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"per"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"month**,"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"with"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"most"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"outflows"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"recorded"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"directly"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"in"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"checking"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"and"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"savings.*"}
+
+data: {"type":"text","chunk":"\n\n"}
+
+data: {"type":"text","chunk":"Your"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"true"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"monthly"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"spending"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"is"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"**$6,510.16**,"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"averaged"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"over"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"the"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"full"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"**24-month"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"history"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"from"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"July"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"2024"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"through"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"June"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"2026**."}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"Transfers"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"between"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"your"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"accounts"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"and"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"credit-card"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"payments"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"are"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"excluded,"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"preventing"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"card"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"purchases"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"from"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"being"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"counted"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"twice."}
+
+data: {"type":"text","chunk":"\n\n"}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"Source"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"Monthly"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"spending"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":"\n"}
+
+data: {"type":"text","chunk":"|---|---:|"}
+
+data: {"type":"text","chunk":"\n"}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"Checking"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"&"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"savings"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"outflows"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"$5,346.00"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":"\n"}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"Credit-card"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"purchases"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"$1,164.16"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":"\n"}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"**True"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"combined"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"spending**"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"**$6,510.16**"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"|"}
+
+data: {"type":"text","chunk":"\n\n"}
+
+data: {"type":"text","chunk":"One"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"data-quality"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"note:"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"**Shopping**"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"accounts"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"for"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"38.3%"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"of"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"full-history"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"card"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"spending."}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"That"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"category"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"may"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"contain"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"miscategorized"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"transactions;"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"if"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"any"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"merchants"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"are"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"wrong,"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"tell"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"me"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"their"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"correct"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"categories"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"and"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"I’ll"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"fix"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"them"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"permanently"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"for"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"every"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"future"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"analysis."}
+
+data: {"type":"text","chunk":"\n\n"}
+
+data: {"type":"text","chunk":"This"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"figure"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"covers"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"your"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"connected"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"checking"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"and"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"card"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"accounts."}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"Spending"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"through"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"any"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"unconnected"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"accounts"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"or"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"cards"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"is"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"not"}
+
+data: {"type":"text","chunk":" "}
+
+data: {"type":"text","chunk":"included."}
+
+data: {"type":"provenance","provenance":{"domains":[{"name":"Checking & Savings","capability":"get_cashflow","balance_coverage_pct":100,"historical_coverage_pct":100,"verified_amount":22400,"inferred_amount":0,"accounts":[{"account_id":"m_checking","current_balance":22400,"current_balance_verified":true,"historical_series_verified":true}]},{"name":"Debt","capability":"get_financial_snapshot","balance_coverage_pct":100,"historical_coverage_pct":100,"verified_amount":166.39,"inferred_amount":0,"accounts":[{"account_id":"m_amex","current_balance":48.39,"current_balance_verified":true,"historical_series_verified":true},{"account_id":"m_visa","current_balance":118,"current_balance_verified":true,"historical_series_verified":true}]},{"name":"Debt","capability":"get_spending_by_category","balance_coverage_pct":100,"historical_coverage_pct":100,"verified_amount":166.39,"inferred_amount":0,"accounts":[{"account_id":"m_amex","current_balance":48.39,"current_balance_verified":true,"historical_series_verified":true},{"account_id":"m_visa","current_balance":118,"current_balance_verified":true,"historical_series_verified":true}]}],"accounts":[],"accounts_analyzed":0,"transactions_scanned":0,"answer_coverage_pct":100,"portfolio_coverage_pct":100,"historical_coverage_pct":null,"confidence_pct":91,"confidence_factors":{"freshness":100,"historical_support":100,"provenance_alignment":80,"lookup_success":83},"claims":[{"type":"observation","text":"Checking and savings spending averages $5,346.00 per month over July 2024 through June 2026, excluding transfers and credit-card payments.","evidence":["Checking & Savings get_cashflow monthly_baseline: spending $5,346.00; 24 months; full history; internal movements excluded."]},{"type":"observation","text":"Credit-card purchases average $1,164.16 per month over July 2024 through June 2026.","evidence":["Debt get_spending_by_category monthly_baseline: spending $1,164.16; 24 months; full history."]},{"type":"calculation","text":"Combined true monthly spending is $6,510.16.","evidence":["Checking baseline $5,346.00 and card baseline $1,164.16."],"formula":"$5,346.00 + $1,164.16 = $6,510.16"},{"type":"observation","text":"Shopping represents 38.3% of full-history card spending and may include miscategorized transactions.","evidence":["Debt category aggregation: Shopping $10,714.61 of $27,939.94, 38.3%."]}],"failed_lookups":["Intent execution failed: 403 {\"jsonrpc\":\"2.0\",\"id\":\"d84dd441-0157-4a37-8f31-da0b"],"alignment_penalties":["Superlative claim with < 80% coverage"],"executionMs":331,"timestamp":"2026-07-14T15:17:45.820Z","cached":true,"coverage_pct":100,"confidence":"high","visible":[],"assumptions":[],"missing":[]}}
+
+data: {"type":"follow_ups","follow_ups":["Show my spending by category?","Which months drove my average higher?","Break down the Shopping category by merchant?","How does my spending compare with my income?"]}
+
+data: {"type":"sources","sources":[{"domain":"arthur","summary":"Routed via A2A to workspace Hyq3XBTvz5xJa4JIBKzG"}]}
+
+data: {"type":"done","conversationId":"conv_d782ca27-3a6d-4bc2-8d64-be9dc3aecb03","traceId":"81c02cb22f7ea95b333f1b0c"}
+
+data: [DONE]
+

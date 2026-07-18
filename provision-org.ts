@@ -36,6 +36,16 @@ const FIXTURES: Record<string, { orgName: string; domains: string[]; profile: an
       { relationship: 'child', name: 'Child Two', age: 2, isDependent: true },
     ],
   },
+  M: {
+    orgName: 'Study Fixture M',
+    domains: ['checking', 'debt', 'investments', 'retirement', 'demographics'],
+    profile: { displayName: 'A. Morgan', dateOfBirth: '1986-03-15', stateOfResidence: 'MO', filingStatus: 'married_filing_jointly', employmentStatus: 'employed' },
+    household: [
+      { relationship: 'spouse', name: 'J. Morgan', age: 39, isDependent: false },
+      { relationship: 'child', name: 'Child One', age: 8, isDependent: true },
+      { relationship: 'child', name: 'Child Two', age: 6, isDependent: true },
+    ],
+  },
   R: {
     orgName: 'Study Fixture R',
     domains: ['checking', 'retirement', 'demographics'],
@@ -47,7 +57,7 @@ const FIXTURES: Record<string, { orgName: string; domains: string[]; profile: an
 };
 
 const fixture = FIXTURES[(process.argv[2] || '').toUpperCase()];
-if (!fixture) { console.error('Usage: provision-org.ts <Y|R>'); process.exit(1); }
+if (!fixture) { console.error('Usage: provision-org.ts <Y|R|M>'); process.exit(1); }
 
 /* ── helpers ── */
 async function api(base: string, path: string, init: RequestInit = {}): Promise<any> {

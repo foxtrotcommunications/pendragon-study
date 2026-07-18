@@ -1,0 +1,17 @@
+```chart
+{"chartType":"bar","title":"True Spending by Month — April to June 2026","labels":["April","May","June","3-month average"],"datasets":[{"label":"True spending","data":[10048.66,5810.75,6743.84]}],"xAxisLabel":null,"yAxisLabel":"Spending","stacked":false,"numberFormat":null,"annotations":null,"horizontal":false,"colors":["#466B86"],"currency":"USD","totals":null}
+```
+> *Excluding internal transfers and both sides of credit-card payments, your three-month average was **$7,534.42 per month**.*
+
+## True monthly spending
+
+| Month | Bank-account purchases and bills | Card purchases, net of refunds | Total |
+|---|---:|---:|---:|
+| April 2026 | $9,601.32 | $447.34 | **$10,048.66** |
+| May 2026 | $5,727.43 | $83.32 | **$5,810.75** |
+| June 2026 | $5,005.51 | $1,738.33 | **$6,743.84** |
+| **3-month average** | **$6,778.09** | **$756.33** | **$7,534.42** |
+
+April was unusually high because it included a **$3,850 property-tax payment**. Excluding that irregular payment, your three-month baseline is about **$6,251 per month**—a better working figure for recurring household spending.
+
+The calculation counts purchases when they occur on your cards, then excludes the later card payments so the spending is not counted twice. It also excludes **$1,200 per month** transferred to Schwab and the two 529 accounts.

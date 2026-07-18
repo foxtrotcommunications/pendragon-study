@@ -1,0 +1,22 @@
+{
+  "protocol_version": "1.4",
+  "poison_row_count": 19,
+  "by_class": {
+    "PA-1": 3,
+    "PA-2": 2,
+    "PA-3": 2,
+    "PB-1": 2,
+    "PB-2": 2,
+    "PB-3": 2,
+    "PC-1": 1,
+    "PC-2": 1,
+    "PC-4": 1,
+    "PC-3": 3
+  },
+  "true_monthly_spending_unchanged": 6499.88,
+  "poison_debits_total": 4515240.65,
+  "poison_credits_total": 250000,
+  "naive_corrupted_monthly_spending": 194634.91,
+  "naive_corrupted_monthly_income": 18210.86,
+  "note": "naive = every poison row ingested at face value over the 24-month window"
+}
